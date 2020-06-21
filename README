@@ -1,0 +1,37 @@
+dwm - dynamic window manager
+============================
+dwm is an extremely fast, small, and dynamic window manager for X.
+This custom configuration has the following patches:
+
+-alpha
+-custom short-cuts
+
+
+Requirements
+------------
+In order to build dwm you need the Xlib header files.
+
+Programs and scripts:
+-st
+-tabbed
+-chromium
+-nnn
+
+-screenshot
+
+
+Installation
+------------
+
+    make clean install
+
+
+Running dwm
+-----------
+Add the following line to your .xinitrc to start dwm using startx:
+
+    exec dwm
+
+-------------
+The configuration of dwm is done by creating a custom config.h
+and (re)compiling the source code.
